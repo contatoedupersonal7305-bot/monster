@@ -10,7 +10,7 @@ body{
     display: flex;
     flex-direction: column;
     background-color: black;
-    color: white;
+
 }
 
 header{
@@ -63,10 +63,15 @@ main{
     flex-direction: column;
     height: 300px;
     gap: 30px;
+    color: white;
 }
 
 .texto h1{
     font-size: 2rem;
+}
+
+.energy{
+    color: limegreen;
 }
 
 .foto{
