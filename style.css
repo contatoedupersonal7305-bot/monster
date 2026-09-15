@@ -33,6 +33,11 @@ header{
     height: 60px;
 }
 
+.promo{
+    display: none;
+    color: white;
+}
+
 .br{
     display: flex;
     height: 80px;
@@ -68,6 +73,17 @@ main{
     height: 420px;
 }
 
+.background{
+    display: none;
+    opacity: 5%;
+    position:absolute;
+}
+
+.original{
+    display: none;
+    color: white;
+}
+
 footer{
     height: 20vh;
     display: flex;
@@ -85,4 +101,36 @@ footer{
 
 .nome{
     font-size: 0.4rem;
+}
+
+@media (min-width:1024px){
+    .menu{
+        display: flex;
+        gap: 350px;
+    }
+    .promo{
+        display: flex;
+        font-size:0.7rem;
+    }
+    main{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 250px;
+    }
+    .background{
+        display: flex;
+    }
+    .original{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        gap: 15px;
+    }
+    .logo1{
+        height: 80px;
+        width: 60px;
+    }
 }
