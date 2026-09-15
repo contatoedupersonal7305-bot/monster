@@ -45,9 +45,30 @@ header{
 }
 
 main{
+    display: flex;
     height: 60vh;
+    gap: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    align-items: center;
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    gap: 30px;
+}
+
+.texto h1{
+    font-size: 2rem;
+}
+
+.foto{
+    height: 420px;
 }
 
 footer{
     height: 20vh;
 }
+
