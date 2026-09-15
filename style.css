@@ -43,6 +43,7 @@ header{
     height: 80px;
     gap: 15px;
     align-items: center;
+    color: white;
 }
 
 .globologo{
@@ -102,10 +103,12 @@ footer{
     display: flex;
     gap: 270px;
     font-size: 20px;
+    color: white;
 }
 
 .nome{
     font-size: 0.4rem;
+    color: white;
 }
 
 @media (min-width:1024px){
