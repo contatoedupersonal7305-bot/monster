@@ -30,12 +30,12 @@ header{
 
 .logo-monster{
     display: flex;
-    height: 60px;
+    height: 80px;
 }
 
 .promo{
     display: none;
-    color: white;
+    color: black;
 }
 
 .br{
@@ -98,8 +98,9 @@ main{
 
 .original{
     display: none;
-    color: white;
+    color: black;
 }
+
 
 footer{
     height: 20vh;
@@ -119,12 +120,12 @@ footer{
 
 .flecha p{
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 .nome{
     font-size: 0.4rem;
-    color: white;
+    color: black;
 }
 
 @media (min-width:1024px){
@@ -158,8 +159,8 @@ footer{
         gap: 15px;
     }
     .logo1{
-        height: 80px;
-        width: 60px;
+        height: 100px;
+        width: 80px;
     }
     .foto{
         position: initial;
