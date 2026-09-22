@@ -10,12 +10,12 @@ body{
     display: flex;
     flex-direction: column;
     background-color: black;
-
 }
 
 header{
     display: flex;
     height: 20vh;
+    width: 100%;
     margin: 10px;
     align-items: center;
     justify-content: center;
@@ -23,7 +23,7 @@ header{
 
 .menu{
     display: flex;
-    gap: 100px;
+    gap: 200px;
     align-items: center;
     justify-content: center;
 }
@@ -77,12 +77,14 @@ main{
 
 .foto{
     height: 420px;
+    z-index: 99;
 }
 
 .background{
     display: none;
     opacity: 5%;
     position:absolute;
+    z-index: 98;
 }
 
 .original{
@@ -106,6 +108,11 @@ footer{
     color: white;
 }
 
+.flecha p{
+    text-decoration: none;
+    color: white;
+}
+
 .nome{
     font-size: 0.4rem;
     color: white;
@@ -114,7 +121,11 @@ footer{
 @media (min-width:1024px){
     .menu{
         display: flex;
-        gap: 350px;
+        gap: 600px;
+    }
+    header{
+        display: flex;
+        margin: 0;
     }
     .promo{
         display: flex;
@@ -124,7 +135,7 @@ footer{
         display: flex;
         align-items: center;
         justify-content: center;
-        gap: 250px;
+        gap: 470px;
     }
     .background{
         display: flex;
@@ -140,5 +151,12 @@ footer{
     .logo1{
         height: 80px;
         width: 60px;
+    }
+    .foto{
+        position: initial;
+    }
+    .flecha{
+        display: flex;
+        gap: 1400px;;
     }
 }

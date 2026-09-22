@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+}
+
+header{
+    display: flex;
+    height: 20vh;
+    width: 100%;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu{
+    display: flex;
+    gap: 200px;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-monster{
+    display: flex;
+    height: 60px;
+}
+
+.promo{
+    display: none;
+    color: white;
+}
+
+.br{
+    display: flex;
+    height: 80px;
+    gap: 15px;
+    align-items: center;
+    color: black;
+}
+
+.globologo{
+    height: 30px;
+}
+
+main{
+    display: flex;
+    height: 60vh;
+    gap: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    align-items: center;
+}
+
+.esquerda{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    gap: 30px;
+    color: black;
+}
+
+.texto h1{
+    font-size: 2rem;
+}
+
+.energy{
+    color: gray;
+}
+
+.foto{
+    display: flex;
+    height: 550px;
+    position: absolute;
+    left: 60px;
+    z-index: 99;
+}
+
+.background{
+    display: none;
+    opacity: 25%;
+    position:absolute;
+    z-index: 98;
+}
+
+.original{
+    display: none;
+    color: white;
+}
+
+footer{
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.flecha{
+    display: flex;
+    gap: 270px;
+    font-size: 20px;
+    color: white;
+}
+
+.flecha p{
+    text-decoration: none;
+    color: white;
+}
+
+.nome{
+    font-size: 0.4rem;
+    color: white;
+}
+
+@media (min-width:1024px){
+    .menu{
+        display: flex;
+        gap: 600px;
+    }
+    header{
+        display: flex;
+        margin: 0;
+    }
+    .promo{
+        display: flex;
+        font-size:0.7rem;
+    }
+    main{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 350px;
+    }
+    .background{
+        display: flex;
+    }
+    .original{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        gap: 15px;
+    }
+    .logo1{
+        height: 80px;
+        width: 60px;
+    }
+    .foto{
+        position: initial;
+    }
+    .flecha{
+        display: flex;
+        gap: 1400px;;
+    }
+}
